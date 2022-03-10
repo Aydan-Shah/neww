@@ -1,0 +1,509 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+    margin-right: 25px;
+    margin-left: 25px
+}
+header{
+    background-image: url(../img/Group\ 7838.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    height: 100vh;
+}
+header:before{ 
+    position: absolute; 
+    content: ''; 
+    height: 100vh; 
+    top: 0; 
+    bottom:0; 
+    left: 0; 
+    right: 0; 
+    background: linear-gradient(90.25deg, #2E1E49 0.27%, rgba(46, 30, 73, 0.1) 54.68%);
+    opacity: 0.7; 
+    z-index: 1;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-top: 80px;
+    gap: 30px;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.date{
+    z-index: 5;
+    border-bottom-style: dashed;
+    width: 200px;
+    border-bottom-color: #d6ff0e;
+}
+#dashed {
+    font-family: system-ui;
+    font-weight: bold;
+    color: white;
+ 
+}
+.paragraf p {
+    font-size: 20px;
+    font-family: system-ui;
+    color: white;
+}
+.left {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    z-index: 5;
+}
+header h1 {
+    font-size: 48px;
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title {
+    width: 450px;
+    z-index: 5;
+}
+.paragraf {
+    width: 600px;
+    z-index: 5;
+}
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    z-index: 5;
+}
+.right-icon{
+    display: none;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.section-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.section-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.section-top h1 {
+    font-size: 40px;
+    color: #382459;
+    font-family: system-ui;
+}
+.section-top-btn button {
+    padding: 15px 40px 15px 40px;
+    border: 0px;
+    border-radius: 29px;
+    color: white;
+    background-color: #ff78df;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+.section-bottom-btn{
+    display: none;
+}
+.mobile-decoration{
+    z-index: 5;
+    margin-bottom: 30px;
+    display: none;
+}
+.mobile-system-div{
+    display: none;
+}
+.text-mobile {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.background-img{
+    display: none;
+}
+.mobile-system-div-top {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+.mobile-system-div-top h2 {
+    color: aqua;
+    font-family: system-ui;
+    font-size: 34px;
+}
+.div-section {
+    border: solid 1px aqua;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aqua;
+    font-family: system-ui;
+    font-weight: bold;
+    align-items: center;
+    font-size: 20px;
+}
+.mobile-system-div-center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-family: system-ui;
+}
+.mobile-system-div-center img{
+    object-fit: contain;
+}
+.mobile-system-div-bottom {
+    margin-bottom: 30px;
+}
+.mobile-decoration{
+    z-index: 5;
+    margin-bottom: 30px;
+}
+.background-img{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(357.36deg, #382459 5.53%, rgba(56, 36, 89, 0.44) 38.94%, rgba(56, 36, 89, 0) 110.68%);
+}
+.section-bottom-btn button {
+    padding: 15px 40px 15px 40px;
+    border: 0px;
+    border-radius: 29px;
+    color: white;
+    background-color: #ff78df;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+    display: none;
+}
+.section-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-bottom h2 {
+    font-size: 37px;
+    color: #382459;
+    font-family: system-ui;
+}
+.section-bottom p {
+    color: #382459;
+    font-family: system-ui;
+}
+.price {
+    width: 100%;
+    background-color: #382459;
+    color: white;
+    position:relative;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.price-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.price-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+.price-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.price-left-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.price-right-top {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.price-right-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.price h2 {
+    font-size: 36px;
+    color: aqua;
+    font-family: system-ui;
+}
+.big-content p {
+    font-size: 22px;
+    font-family: system-ui;
+}
+.mini-content p {
+    font-family: system-ui;
+    color: #c9c6c6;
+    font-size: 14px;
+}
+.price img {
+    position: absolute;
+    right: 12px;
+    bottom: -12px;
+}
+section.study {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    gap: 50px;
+}
+.study-top h1 {
+    color: #382459;
+    font-family: system-ui;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.study-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 70px;
+}
+.study-bottom-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+.study-bottom-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.study-bottom-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+.study-bottom h2{
+    font-family: system-ui;
+    color: #382459;
+    font-size: 30px;
+}
+.study-bottom p{
+    font-family: system-ui;
+    color: #382459;
+    font-size: 17px;
+}
+.study-top {
+    margin: 30px 0px 30px 0px;
+}
+section.system {
+    background-color: #382459;
+    width: 100%;
+}
+.system-div {
+    display: flex;
+    flex-direction: revert;
+    gap: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.system-left {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+.system-right {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.system h1 {
+    font-size: 33px;
+    color: aqua;
+}
+.system-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.system button {
+    border: 1px solid aqua;
+    background-color: #ffffff00;
+    color: aqua;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+}
+
+.big-section-if{
+    margin: 100px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+}
+.section-if-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-if-left h1 {
+    font-size: 35px;
+}
+.section-if-left p{
+    font-size: 20px;
+}
+.section-if-left-content {
+    width: 51%;
+}
+.big-section-if img {
+    position: absolute;
+    right: -35px;
+    top: -191px;
+    z-index: 1;
+}
+section.apply {
+    width: 100%;
+    background-color: #382459;
+    z-index: 5;
+    position: relative;
+}
+.apply-div {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.apply-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.apply-right-title h1{
+    font-size: 23px;
+    text-transform: uppercase;
+    color: aqua;
+    font-family: system-ui;
+}
+.apply-right-content {
+    color: white;
+    font-family: system-ui;
+}
+section.apply button {
+    padding: 15px 40px 15px 40px;
+    border: 0px;
+    border-radius: 29px;
+    color: white;
+    background-color: #ff78df;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+    cursor:pointer;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 50px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    color: #382459;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-center-top{
+    font-weight: bold;
+}
+.footer-center-bottom{
+    font-weight: 500;
+}
+.footer-center-bottom p{
+    font-size: 12px;
+}
+
+footer i.fab.fa-instagram {
+    font-size: 28px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button:hover{
+    cursor: pointer;
+}

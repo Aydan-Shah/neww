@@ -1,0 +1,484 @@
+@media screen and (max-width:1042px){
+    .system h1 {
+        font-size: 28px;
+    }
+    .price img{
+        right: 4px;
+        bottom: -12px;
+        width: 83px;
+    }
+}
+@media screen and (max-width:918px){
+    .big-content p {
+        font-size: 18px;
+    }
+    .section-bottom p {
+        font-size: 13px;
+    }
+    .price img {
+        width: 70px;
+        right: 3px;
+    }
+    .mini-content p {
+        font-size: 13px;
+    }
+    .paragraf p {
+        font-size: 18px;
+    }
+    header h1 {
+        font-size: 43px;
+    }
+    .section-bottom h2 {
+        font-size: 36px;
+    }
+    .big-section-if img{
+        right: -48px;
+        top: -156px;
+        width: 50%;
+    }
+    nav img {
+        width: 130px;
+    }
+}
+@media screen and (max-width:869px){
+    section.apply button {
+        font-size: 13px;
+        padding: 12px 30px 12px 30px;
+    }
+    .apply-div img {
+        width: 64%;
+    }
+    .section-bottom h2 {
+        font-size: 30px;
+    }
+    .section-bottom p {
+        font-size: 14px;
+    }
+    .paragraf p {
+        font-size: 18px;
+    }
+    .section-if-left p {
+        font-size: 16px;
+    }
+    .section-if-left h1 {
+        font-size: 31px;
+    }
+    header h1 {
+        font-size: 43px;
+    }
+    .section-top button {
+        font-size: 13px;
+    }
+    .section-top h1{
+        font-size: 35px;
+    }
+    .right{
+        gap:11px;
+    }
+    .study-bottom h2 {
+        font-size: 20px;
+    }
+    .mini-content p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:768px){
+    .right {
+        display: none;
+    }
+    .right-icon {
+        display: block;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+    }
+    .top{
+        gap: 10px;
+    }
+    .big-section-if img {
+        top: -133px;
+    }
+}
+@media screen and (max-width:768px){
+    .mini-content p {
+        font-size: 11px;
+    }
+    .big-content p {
+        font-size: 16px;
+    }
+    .section-bottom h2 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:700px){
+    .big-section-if img {
+       display: none;
+    }
+    .section-if-left{
+        align-items: center;
+    }
+    .section-if-left p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .section-if-left-content {
+        width: 70%;
+    }
+    .section-top h1 {
+        font-size: 30px;
+    }
+    .apply-right-title h1 {
+        font-size: 17px;
+    }
+    .apply-right-content p{
+        font-size: 14px;
+    }
+    section.apply button {
+        font-size: 11px;
+    }
+    footer {
+        gap: 45px;
+    }
+}
+@media screen and (max-width:690px){
+   .img2{
+       display: none;
+   }
+   .img3{
+       display: none;
+   }
+   nav{
+       margin-left: 50px;
+       margin-right: 50px;
+   }
+   header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+ }
+   nav img {
+       width: 200px;
+   }
+   .right-icon{
+      font-size: 30px;
+   }
+   .section-bottom{
+      flex-direction: column;
+   }
+   .top{
+       flex-direction: column;
+    gap: 0px;
+   }
+   .study-bottom {
+     flex-direction: column;
+   }
+   .paragraf{
+       width: 422px;
+   }
+   footer {
+    flex-direction: column;
+    align-items: center;
+   }
+   .footer-left {
+    flex-direction: row;
+   }
+   .section-bottom-btn button{
+       display: block;
+   }
+   .section-bottom-btn{
+       display: block;
+   }
+   .section-top-btn{
+       display: none;
+   }
+   .bottom-logo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.mobile-decoration{
+    display: block;
+}
+.mobile-system-div{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+}
+.background-img{
+    display: block;
+ }
+.system-div{
+    display: none;
+}
+.title {
+    width: 330px;
+}
+.title h1 {
+    font-size: 35px;
+}
+.paragraf {
+    width: 294px;
+}
+.paragraf p {
+    font-size: 15px;
+}
+.price-right {
+    margin-top: 0;
+}
+}
+@media screen and (max-width:640px){
+    .apply-right-title h1 {
+        font-size: 13px;
+    }
+    .apply-right-content p {
+        font-size: 11px;
+    }
+    section.apply button {
+        font-size: 9px;
+        padding: 10px 20px 10px 20px;
+    }
+}
+@media screen and (max-width:632px){
+    .apply-div img {
+        width: 380px;
+        position: absolute;
+        right: 0px;
+        bottom: 115px;
+        z-index: 1;
+    }
+    .apply-div{
+        flex-direction: column;
+    }
+    .apply-right {
+        margin-bottom: 82px;
+        margin-top: 80px;
+        z-index: 5;
+    }
+    .apply-right-title {
+        width: 322px;
+    }
+    .apply-right-title h1 {
+        font-size: 27px;
+    }
+    .apply-right-content {
+        width: 350px;
+    }
+    section.apply button {
+        font-size: 13px;
+        padding: 10px 40px 10px 40px;
+    }
+    .apply-right-content p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:575px){
+    .apply-right {
+        position: relative;
+        top: 44px;
+    }
+    .section-bottom h2 {
+        font-size: 29px;
+    }
+    .apply-div img {
+        width: 380px;
+        position: absolute;
+        right: 0px;
+        bottom: 141px;
+        z-index: 1;
+    }
+    .apply-right {
+        top: 78px;
+        margin-bottom: 105px;
+    }
+    .section-if-left h1 {
+        font-size: 26px;
+    }   
+    .study-top h1{
+        font-size: 23px;
+    }
+    .bottom-logo img {
+        width: 119px;
+    }
+}
+    @media screen and (max-width:405px){
+        .title {
+            width: 294px;
+        }
+        .title h1 {
+            font-size: 29px;
+        }
+        .paragraf {
+            width: 273px;
+        }
+        .paragraf p {
+            font-size: 13px;
+        }
+        .section-bottom-btn button {
+            font-size: 13px;
+        }
+        .apply-right-title {
+            width: 215px;
+        }
+        .apply-right-title h1 {
+            font-size: 20px;
+        }
+        .apply-right-content {
+            width: 285px;
+        }
+        .apply-right-content p {
+            font-size: 12px;
+        }
+        .section-if-left h1 {
+            font-size:18px;
+        }   
+        .div-section{
+            font-size: 15px;
+        }
+        .bottom-logo{
+            gap: 21px;
+        }
+        .bottom-logo img{
+            width: 109px;
+        }
+        nav img {
+            width: 175px;
+        }
+        .price h2 {
+            font-size: 30px;
+        }
+    }
+    @media screen and (max-width:353px){
+        .apply-right-content {
+            width: 221px;
+        }
+        .apply-right-btn {
+            width: 184px;
+        }
+        .div-section {
+            font-size: 12px;
+        }
+        .title {
+            width: 203px;
+        }
+        .paragraf {
+            width: 225px;
+        }
+        .date {
+            width: 137px;
+        }
+        #dashed {
+            font-size: 11px;
+        }
+        .section-top h1 {
+            font-size: 26px;
+        }
+        .apply-div img {
+            width: 330px;
+        }
+        nav img {
+            width: 141px;
+        }
+        .right-icon {
+            font-size: 23px;
+        }
+        .bottom-logo img {
+            width: 80px;
+        }
+    }
+    @media screen and (max-width:330px){
+        .price img {
+            width: 50px;
+        }
+        .apply-div img {
+            width: 276px;
+        }
+        .apply-div img {
+            bottom: 194px;
+        }
+        .study-bottom p {
+            font-size: 13px;
+        }
+        .text-mobile p {
+            font-size: 13px;
+        }
+        section.apply button {
+            font-size: 11px;
+            padding: 10px 30px 10px 30px;
+        }
+        .section-bottom h2 {
+            font-size: 19px;
+        }
+        .footer-left-top img {
+            width: 145px;
+        }
+        .section-bottom-btn button {
+            padding: 10px 30px 10px 30px;
+        }
+        .section-if-left-content {
+            width: 90%;
+        }
+        .section-if-left p {
+            font-size: 13px;
+        }
+        .section-if-left h1 {
+            font-size: 15px;
+        }
+        nav {
+            gap: 31px;
+    }
+
+@media screen and (max-width:282px){
+       .system button{
+        padding: 10px 20px 10px 20px;
+       }
+       .title {
+        width: 178px;
+    }
+    .title h1 {
+        font-size: 19px;
+    }
+    .paragraf {
+        width: 148px;
+    }
+    .paragraf p {
+        font-size: 12px;
+    }
+    .date {
+        width: 100px;
+    }
+    .section-top h1 {
+        font-size: 22px;
+    }
+    .section-bottom-btn button {
+        font-size: 10px;
+    }
+    .price h2 {
+        font-size: 22px;
+    }
+    #dashed {
+        font-size: 8px;
+    }
+    .apply-right-title {
+        width: 183px;
+    }
+    .apply-right-title h1 {
+        font-size: 16px;
+    }
+    .apply-right-content {
+        width: 171px;
+    }
+    
+    
+    
+    
+}
